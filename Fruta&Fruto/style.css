@@ -1,0 +1,137 @@
+.card-largura {
+    /* width: 18rem;*/
+    max-width: 18rem;
+}
+
+.nav-link {
+    color: blue;
+    font-size: 20px;
+}
+
+.navbar-brand {
+    font-size: 28px;
+    color: blue;
+    margin-left: 30px;
+}
+
+
+.imagem-carrosel {
+    object-fit: cover;
+    /* preenche a div com o objeto */
+    object-position: 0 60%;
+    /* desloca a imagem no eixo X e Y */
+    height: 400px;
+}
+
+body {
+
+    /* background-color: blue; */
+
+    background-image: url(img/fundo3.png);
+}
+
+.fonte-titulo {
+    font-family: 'Pacifico', cursive;
+    color: white;
+}
+
+
+.text-shadow {
+    text-shadow: 2px 2px 4px #000000;
+}
+
+
+.text-shadow2 {
+    text-shadow: 0px 0px 4px #ab8817;
+    /* text-shadow: 2px 2px 4px #ffffff; */
+}
+
+
+
+
+.cor-especial {
+    color: darkred;
+}
+
+
+.cor-especial1 {
+    color: rgb(0, 0, 0);
+}
+
+
+.borda-cor-especial {
+    border-color: darkred;
+}
+
+.botao-cor-especial {
+    background-color: rgb(124, 39, 39);
+    color: bisque;
+
+
+}
+
+.centro-btn {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+
+
+.botao-cor-especial:hover {
+    background-color: darkred;
+    color: white;
+}
+
+.card-posicao-imagem {
+    object-fit: cover;
+    /* preencha a div com objeto*/
+    height: 200px;
+}
+
+/*  inicio colocar o transparente */
+.modal-content {
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(9px);
+}
+
+.modal-backdrop {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.modal-header,
+.modal-footer {
+    border: none !important;
+}
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0.3) !important;
+    backdrop-filter: blur(9px) !important;
+}
+
+
+
+/*  fim colocar o transparente */
+
+
+.cor-font {
+    color: white;
+    font-size: 20px;
+    /* text-shadow: 2px 2px 4px #000000; */
+}
+
+.cor-font2 {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    /* text-shadow: 2px 2px 4px #000000; */
+}
+
+
+.title-a {
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
